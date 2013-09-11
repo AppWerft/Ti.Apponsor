@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="apponsor_client_lib_name">Apponsor Client Library</string>
+    <string name="apponsor_sponsor_text_dummy">Sponsor Platzhaltertext</string>
+    <string name="menu_privacy_policy">Datenschutzerklärung</string>
+    <string name="apponsor_exception_no_context">Kontext ist nicht definiert</string>
+    <string name="apponsor_exception_no_configuration">Keine Konfiguration definiert</string>
+    <string name="apponsor_exception_missing_configuration_attribute_appkey">App Key ist erforderlich</string>
+    <string name="apponsor_exception_missing_configuration_attribute_publickey">Public Key ist erforderlich</string>
+    <string name="apponsor_exception_do_request">Konnte keine Anfrage an den Apponsor-Server stellen.</string>
+    <string name="apponsor_exception_invalid_json_resobse">JSON Server-Antwort kann nicht verarbeitet werden.</string>
+    <string name="apponsor_exception_minimum_permissions">Diese App beinhaltet nicht das Minimum an Rechte, um Apponsor einbinden zu können.</string>
+    <string name="apponsor_exception_no_network_connection">Es besteht keine Netzwerkverbindung</string>
+    <string name="apponsor_exception_no_email_account">Eine E-Mail-Adresse ist erforderlich, um vorhergehende Registrierungen erkennen zu können. Die E-Mail-Adresse wird Einwegverschlüsselt.</string>
+    <string name="apponsor_exception_no_device_id">Eine Geräterkennung ist erforderlich, um vorhergehende Registrierungen erkennen zu können. Die Geräterkennung wird Einwegverschlüsselt.</string>
+    <string name="apponsor_exception_unknown_offline_state">Sie sind offline und es konnte keine vorherige Registrierung lokal gefunden werden.</string>
+    <string name="apponsor_exception_apponsor_service_not_available">Die Apponsor-Webservices scheinen nicht erreichbar zu sein oder sind überlastet. Bitte versuchen Sie es später noch einmal.</string>
+    <string name="apponsor_exception_no_active_session">Sie benötigen eine aktive Session</string>
+    <string name="apponsor_exception_no_sponsor_found">Es konnte kein Sponsor für diese App gefunden werden. Bitte versuchen Sie es später noch einmal.</string>
+    <string name="apponsor_exception_missing_permission">Diese App erfodert das Recht %1$s</string>
+    <string name="apponsor_exception_attribute_encryption">Ein Fehler ist während der Verschlüsselung eines Attributes aufgetreten.</string>
+    <string name="apponsor_exception_registration_not_approved">Die Registrierung ist noch nicht bestätigt. Bitte lassen Sie den Sponsor erst vom Benutzer bestätigen.</string>
+    <string name="apponsor_exception_no_sponsor_selected">Keinen Sponsor für die Registrierung selektiert.</string>
+    <string name="apponsor_exception_no_locale">Kein Land / Sprach-Einstellungen vorhanden.</string>
+    <string name="apponsor_exception_country_not_allowed">Sie befinden sich in einem nicht unterstützten Land.</string>
+    <string name="apponsor_exception_apponsor_manager_not_initialized">Der Apponsor-Manager ist nicht initialisiert, bitte rufen Sie zuerst die Init-Methode auf.</string>
+    <string name="apponsor_messages_response_state_blocked">Ihre E-Mail-Adresse oder die Kombination mit Ihrer Geräterkennung ist von Apponsor gesperrt worden. Eine Registrierung ist nicht möglich.</string>
+    <string name="apponsor_messages_response_state_registered">Sie sind registriert.</string>
+    <string name="apponsor_messages_response_state_unknown">Ihr Registrierungsstatus ist unbekannt. Bitte registrieren Sie sich.</string>
+    <string name="apponsor_messages_response_state_expired">"Ihre Registrierung ist abgelaufen, bitte registrieren Sie sich erneut."</string>
+    <string name="apponsor_messages_response_sponsor_not_found">Keine Sponsoren gefunden.</string>
+    <string name="apponsor_messages_response_sponsor_found">Ein oder mehrere Sponsoren wurden für diese App gefunden.</string>
+    <string name="apponsor_messages_response_registration_state_failed">Die Registrierung ist fehlgeschlagen.</string>
+    <string name="apponsor_messages_response_registration_state_invalid">Die Registrierung ist ungültig</string>
+    <string name="apponsor_messages_response_registration_state_registered">Bereits registriert</string>
+    <string name="apponsor_messages_response_registration_state_successful">Erfolgreich registriert.</string>
+    <string name="apponsor_messages_response_approve_yes">Die Registrierung für den ausgewählten Sponsor ist bestätigt.</string>
+    <string name="apponsor_messages_response_approve_no">Die Registrierung für den ausgewählten Sponsor ist nicht bestätigt.</string>
+    <string name="apponsor_messages_exceptions_missing_client_lib_vesion">Keine Client-Librarie Versionsnummer</string>
+    <string name="apponsor_messages_exceptions_invalid_request">Die Anfrage ist ungültig, erforderliche Attribute fehlen.</string>
+    <string name="apponsor_messages_exceptions_missing_locale">Kein Land / Sprach-Einstellungen vorhanden.</string>
+    <string name="apponsor_messages_exceptions_unsupported_locale">Übermittelte Länderkennung wird nicht unterstützt.</string>
+    <string name="apponsor_messages_exceptions_no_session_found">Anfrage nicht möglich, erfordert aktive Sitzung. Keine Sitzung gefunden.</string>
+    <string name="apponsor_messages_exceptions_session_closed">Sitzung bereits geschlossen</string>
+    <string name="apponsor_messages_exceptions_session_timeout">Sitzung abgelaufen.</string>
+    <string name="apponsor_messages_exceptions_unknown_sponsor_id">Unbekannte Sponsor-Id, Registrierung ist unmöglich.</string>
+    <string name="apponsor_messages_exceptions_unknown_sponsor_profile">Unbekanntes Sponsor-Profil, Registrierung ist unmöglich.</string>
+    <string name="apponsor_messages_exceptions_json_profile_data_exception">JSON Profildaten konnten nicht interpretiert werden.</string>
+    <string name="apponsor_messages_exceptions_unknown_app_key">Unbekannter App-Key.</string>
+    <string name="apponsor_approve">Bestätigt</string>
+    <string name="apponsor_dataset">Zeige Datensatz</string>
+    <string name="apponsor_sponsor_logo_description">Sponsor-Logo</string>
+    <string name="apponsor_btn_cancel">Abbrechen</string>
+    <string name="apponsor_btn_submit">App starten</string>
+    <string name="apponsor_btn_ok">OK</string>
+    <string name="apponsor_btn_close">Beenden</string>
+    <string name="apponsor_dialogs_title_error">Fehler</string>
+    <string name="apponsor_title_registration">Registrierung</string>
+<!--     <string name="apponsor_dialog_progress_fill_profile_title">Initialisiere</string> -->
+<!--     <string name="apponsor_dialog_progress_fill_profile_message">Bitte warten - die Daten werden gesammelt&#8230;</string> -->
+    <string name="apponsor_dialog_profile_attributes_list">Datensatz</string>
+    <string name="apponsor_dialog_progress_verify_title">Verifiziere</string>
+    <string name="apponsor_dialog_progress_verify_state_message">Verifiziere Registrierungsstatus</string>
+    <string name="apponsor_dialog_progress_verify_find_sponsor_message">Suche Sponsoren.</string>
+    <string name="apponsor_dialog_progress_verify_register_message">Registrierung in Bearbeitung</string>
+    <string name="apponsor_default_sponsortext">Activity geöffnet ohne Sponsor-Text.</string>
+    <string name="apponsor_list_row_column_attribute_name">Attributname</string>
+    <string name="apponsor_list_row_column_attribute_diver">:</string>
+    <string name="apponsor_list_row_column_attribute_value">Attributwert</string>
+    <string name="apponsor_profile_attribute_labels_displayname">Name</string>
+    <string name="apponsor_profile_attribute_labels_locale">ISO Länderkennung</string>
+    <string name="apponsor_profile_attribute_labels_email">E-Mail</string>
+    <string name="apponsor_profile_attribute_labels_carrier">Netzbetreiber</string>
+    <string name="apponsor_profile_attribute_labels_sim_operator">Telefongesellschaft</string>
+    <string name="apponsor_profile_attribute_labels_model">Gerätemodell</string>
+    <string name="apponsor_profile_attribute_labels_emaildomain">E-Mail-Domain</string>
+    <string name="apponsor_profile_attribute_labels_sponsortext">Registrierungstext</string>
+    <string name="apponsor_privacy_policy_activity_title">Datenschutzerklärung</string>
+    <string name="apponsor_privacy_policy_text_dummy">Datenschutzerklärungs-Platzhalter-Text</string>
+    <string name="apponsor_default_privacy_policy_text">Activity geöffnet ohne Datenschutzerklärung</string>
+    <string name="title_activity_unsupported_country">Sie befinden sich in einem nicht unterstützten Land</string>
+    <string name="apponsor_unsupported_country_act_app_text">
+        <![CDATA[
+Diese Version von: <b>%1$s</b><br />
+<p>%2$s</p><br/>
+        ]]>
+    </string>
+    <string name="apponsor_unsupported_country_act_not_supported_text">
+        <![CDATA[
+<b>Wird nicht in %1$s unterstützt.</b>
+        ]]>
+    </string>
+    <string name="apponsor_unsupported_country_act_publisher_alternatives">
+        <![CDATA[
+Der Herausgeber dieser App stellt Ihnen folgende Informationen bereit, 
+um Ihnen zu helfen, eine alternative Version zu finden.<br />
+<br /> 
+Marketlink: <a href="%1$s">%1$s</a><br />
+Email: <a href="mailto:%2$s">%2$s</a><br />
+Webseite: <a href="%3$s">%3$s</b>
+        ]]>
+    </string>    
+    <string name="apponsor_logo_content_description">Apponsor logo</string>
+    <string name="apponsor_home_link">www.apponsor.com</string>
+    <string name="apponsor_wait_msg_title_dummy">Titel</string>
+    <string name="apponsor_wait_msg_text_dummy">Nachrichtentext</string>
+    <string name="apponsor_registration_period_dummy">
+        <![CDATA[
+<b>Registrierungszeitraum:</b> Unbekannt
+		]]>
+	</string>
+	<string name="apponsor_registration_period_text">
+        <![CDATA[
+<b>Registrierungszeitraum:</b> %1$s
+		]]>
+	</string>
+	<string name="apponsor_registration_period_default">Unbekannt</string>
+	<string name="apponsor_registration_period_unlimited">Unbegrenzt</string>
+	<string name="apponsor_registration_period_one_year">1 Jahr</string>
+    
+</resources>

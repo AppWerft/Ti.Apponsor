@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/apoProfAttrListRowColumnName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:text="@string/apponsor_list_row_column_attribute_name"/>
+    
+    <TextView android:id="@+id/apoProfAttrListRowColumnDiver" 
+        android:layout_alignBaseline="@id/apoProfAttrListRowColumnName"
+    	android:layout_toRightOf="@id/apoProfAttrListRowColumnName" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginRight="2dp"
+    	android:layout_marginLeft="2dp"
+    	android:text="@string/apponsor_list_row_column_attribute_diver"/>
+    
+    <TextView android:id="@+id/apoProfAttrListRowColumnValue" 
+        android:layout_alignBaseline="@id/apoProfAttrListRowColumnName"
+    	android:layout_alignParentRight="true" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginRight="5dp"
+    	android:text="@string/apponsor_list_row_column_attribute_value"
+    	android:textStyle="bold"/>    	
+</RelativeLayout>

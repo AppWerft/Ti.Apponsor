@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".WaitActivity">
+
+    <ImageView
+        android:id="@+id/apponsor_wait_imgv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/apponsor_logo" 
+        android:contentDescription="@string/apponsor_logo_content_description"/>
+
+    <TextView
+        android:id="@+id/apponsor_wait_txtv_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="5dp"
+        android:layout_below="@id/apponsor_wait_imgv_logo"
+        android:text="@string/apponsor_home_link"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/apponsor_wait_progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" 
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/apponsor_wait_txtv_msg_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apponsor_wait_progress_bar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/apponsor_wait_msg_title_dummy" 
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/apponsor_wait_txtv_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/apponsor_wait_txtv_msg_title"
+        android:layout_below="@+id/apponsor_wait_txtv_msg_title"
+        android:layout_marginTop="5dp"
+        android:text="@string/apponsor_wait_msg_text_dummy"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

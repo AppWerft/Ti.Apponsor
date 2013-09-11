@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UnsupportedCountryActivity">
+
+    <TextView
+        android:id="@+id/unsupportedCountryTxtViewAppTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/apponsor_unsupported_country_act_app_text" />
+
+    <TextView
+        android:id="@+id/unsupportedCountryTxtViewNotSupportedTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/unsupportedCountryTxtViewAppTxt"
+        android:text="@string/apponsor_unsupported_country_act_not_supported_text"/>
+
+    <TextView
+        android:id="@+id/unsupportedCountryTxtViewPublisherAlternativesTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/unsupportedCountryTxtViewNotSupportedTxt"        
+        android:text="@string/apponsor_unsupported_country_act_publisher_alternatives" />
+
+    <Button
+        android:id="@+id/unsupportedCountryBtnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+        android:text="@string/apponsor_btn_close" />
+
+</RelativeLayout>
