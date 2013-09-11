@@ -1,6 +1,6 @@
 Welcome to Ti.Apponsor
 ======================
-
+![Screen](https://raw.github.com/AppWerft/Ti.Apponsor/master/documentation/screen.png)
 * Offer your app for "free"
 * The user orders the sponsors’ newsletter
 * Each newsletter registration gets paid
