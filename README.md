@@ -1,4 +1,5 @@
-===Welcome to Ti.Apponsor===
+Welcome to Ti.Apponsor
+======================
 
 # Offer your app for "free"
 # The user orders the sponsors’ newsletter
