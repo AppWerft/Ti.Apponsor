@@ -1,0 +1,10 @@
+<project name="tiapponsor" default="dist">
+	<description>
+		Ant build script for Titanium Android module tiapponsor
+	</description>
+
+	<property name="ti.module.root" location="${basedir}"/>
+	<property file="build.properties" />
+
+	<import file="${titanium.platform}/../module/android/build.xml"/>
+</project>
