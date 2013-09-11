@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="5dp"
+    tools:context=".RegisterActivity" >
+    
+    <TextView
+        android:id="@+id/registrationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/apponsor_title_registration"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ImageView
+        android:id="@+id/sponsorLogo"
+        android:scaleType="fitStart"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/registrationTitle"
+        android:layout_marginRight="5dp"
+        android:contentDescription="@string/apponsor_sponsor_logo_description"
+        android:src="@android:drawable/stat_sys_warning" />
+
+    <ScrollView android:id="@+id/sponsorTextScroll" 
+        android:layout_alignTop="@id/sponsorLogo"
+	    android:layout_toRightOf="@id/sponsorLogo"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_marginBottom="120dp">
+	    
+	    <TextView
+	        android:id="@+id/textSponsorText"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingRight="5dp"	        
+	        android:text="@string/apponsor_sponsor_text_dummy" />
+    </ScrollView>
+    
+    <TextView android:id="@+id/apponsor_register_activity_txtv_registrion_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/btnShowDataSet"
+        android:layout_marginRight="5dp"
+        android:text="@string/apponsor_registration_period_dummy"/>
+    
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        android:text="@string/apponsor_btn_submit" />
+    
+    <Button
+        android:id="@+id/btnShowDataSet"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnSubmit"
+        android:layout_alignParentRight="true"
+        android:text="@string/apponsor_dataset" 
+        android:visibility="invisible"/>
+
+    <CheckBox
+        android:id="@+id/chkBoxApprove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/btnShowDataSet"
+        android:layout_alignBaseline="@id/btnShowDataSet"
+        android:text="@string/apponsor_approve"/>
+
+    <Button
+        android:id="@+id/btnCancel"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/btnSubmit"
+        android:layout_alignParentBottom="true"
+        android:text="@string/apponsor_btn_cancel" />
+
+</RelativeLayout>
